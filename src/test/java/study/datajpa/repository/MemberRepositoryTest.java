@@ -279,4 +279,10 @@ class MemberRepositoryTest {
         // then
     }
     
+    @Test
+    public void custom() throws Exception {
+        // given
+        List<Member> result = memberRepository.findMemberCustom();
+    }
+    
 }
